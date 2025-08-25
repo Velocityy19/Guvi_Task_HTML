@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <h2>Contact Us</h2>
+    <form>
+      <!--Full name -->
+      <label for="name">Full name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <!--Email-->
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <!--PhoneNumber-->
+      <label for="phone">Phone</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{10}"
+      /><br /><br />
+
+      <!--Query-->
+      <label for="query">Subject</label>
+      <input type="text" id="query" name="query" required /> <br /><br />
+
+      <!--Message-->
+      <label for="msg">Message</label>
+      <textarea id="msg" name="msg" rows="5" cols="30" required></textarea
+      ><br /><br />
+
+      <!--Submit-->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
